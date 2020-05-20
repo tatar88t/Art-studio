@@ -105,6 +105,49 @@ h4 {
   top: 4rem;
   right: 2rem;
   cursor: pointer;
+  animation: bounce 4s infinite;
+  
+  
+}
+
+@keyframes bounce{
+	from{
+		top: 4rem;
+    animation-timing-function: ease-out;
+  }
+  5%{
+    top: 3rem;
+    animation-timing-function: ease-in;
+  }
+	10%{
+		top: 4rem;
+    animation-timing-function: ease-out;
+  }
+  15%{
+		top: 3.5rem;
+    animation-timing-function: ease-in;
+  }
+  20%{
+    top: 4rem;
+  }
+  25%{
+    top: 3rem;
+    animation-timing-function: ease-in;
+  }
+	30%{
+		top: 4rem;
+    animation-timing-function: ease-out;
+  }
+  35%{
+		top: 3.5rem;
+    animation-timing-function: ease-in;
+  }
+  40%{
+    top: 4rem;
+  }
+  to{
+    top: 4rem;
+  }
 }
 .header .container {
   padding: 0;
